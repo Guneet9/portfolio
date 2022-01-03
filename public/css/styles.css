@@ -1,0 +1,106 @@
+#title {
+    font-family: 'Raleway', sans-serif;
+    padding: 3em 2em;
+    background-color: #867AE9;
+    color: #F4DFBA;
+}
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 5.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#about {
+    background-color: #EEEBDD;
+}
+
+#skills{
+    background-color: #EEEBDD;
+}
+
+#contact{
+    background-color: #EEEBDD;
+}
+
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 5.5rem;
+    color: #867AE9;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    color: #867AE9;
+    text-align: center;
+    padding-top: 18%;
+    padding-bottom: 5%;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+    color: #867AE9;
+    font-size: 1.5rem;
+    padding-top: 9%;
+}
+
+p{
+    width: 90%;
+    margin: 40px 5px;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.container-fluid {
+    padding: 14% 15% 20%;
+}
+
+.sec-container{
+    padding: 6.5% 16% 8%;
+}
+
+.title-img{
+    width: 70%;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.feature-box{
+    padding-left: 5.6%;
+}
+
+.edu-table{
+    padding-left: 23%;
+}
+
+#contact{
+    text-align: center;
+}
+
+.btn {
+    margin: 5% 3% 0% 0;
+    align-items: center;
+}
+
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+  
